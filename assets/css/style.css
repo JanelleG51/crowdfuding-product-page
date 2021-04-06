@@ -25,6 +25,20 @@ body{
   height: auto;
 }
 
+.navbar-toggler{
+    border: none;
+}
+
+.toggler-text{
+    font-weight: 500;
+    text-align: left;
+}
+
+.burger-icon{
+    margin-right: 25px;
+    margin-top: 50px;
+    width: 2rem;
+}
 
 
 
