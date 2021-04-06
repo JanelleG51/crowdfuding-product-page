@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@400;500;700&display=swap');
+
+body{
+    font-size: 16px; 
+    text-align: center; 
+    color: hsl(228, 45%, 44%);
+    margin: 0;
+    padding: 0;
+
+}
+
+.container-fluid{
+    margin: 0;
+    padding: 0;
+}
+
+.logo-position{
+    width: 15rem;
+    margin-left: 25px;
+    margin-top: 50px;
+}
+
+.hero-image{
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+
