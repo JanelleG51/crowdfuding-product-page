@@ -24,21 +24,32 @@ body {
     width: 9rem;
 }
 
-.navbar{
-    padding-top: 1.5rem
+.navbar-padding{
+    padding-top: 25px;
 }
 
 .navbar-toggler{
     border: none;
 }
 
-.toggler-text{
-    font-weight: 500;
-    text-align: left;
+.navbar-nav{
+    margin-right: 100px;
+    margin-top: 18px;
+}
+
+.menu-item{
+    margin-left: 20px;
+    color: #fff;
+
 }
 
 .burger-icon{
     width: 1rem;
+}
+
+.toggler-text{
+    font-weight: 500;
+    text-align: left;
 }
 
 .hero-image{
@@ -53,17 +64,21 @@ body {
 
 }
 
-@media(min-width: 675px){
+@media(min-width: 900px){
 .hero-image{
     background: url('../../images/image-hero-desktop.jpg');
-    width: 100%;
+    min-width: auto;
     min-height: 400px;
-    background-position: center;
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
     position: relative;
     overflow-x: hidden;
         
     }
-    
+
+.navbar-padding{
+    padding-left: 145px;
+}
+
 }
